@@ -46,6 +46,7 @@ class windowView : NSObject
         this.view.addSubview(window)
         createSwipeGesture()
         
+        
         createImage()
         createLabel()
         createArrow()
